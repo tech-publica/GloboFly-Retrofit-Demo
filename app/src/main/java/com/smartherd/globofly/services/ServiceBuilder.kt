@@ -13,7 +13,8 @@ import java.util.concurrent.TimeUnit
 object ServiceBuilder {
 
     // Before release, change this URL to your live server URL such as "https://smartherd.com/"
-    private const val URL = "http://10.0.2.2:9000/"
+    //private const val URL = "http://10.0.2.2:9000/"
+    private const val URL = "http://192.168.1.50:9000/"
 
     // Create Logger
     private val logger = HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
